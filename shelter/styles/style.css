@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 908px;
+}
+
+.promo {
+    height: 60px;
+}
+
+.title {
+    color: #F1CDB3;
+    font-weight: 400px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-weight: 400px;
+    font-size: 13px;
+}
