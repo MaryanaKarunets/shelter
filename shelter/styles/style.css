@@ -6,21 +6,91 @@
 
 .wrapper {
     min-height: 908px;
+    background-image: url('../img/start-screen-gradient-background.jpg');
+    background-size: cover;
 }
 
 .promo {
     height: 60px;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.menu_link {
+    color: #cdcdcd;
+    text-decoration: none;
+    padding-top: 46px;
+    padding-right: 35px;
+    font-family: Arial, sans-serif;
 }
 
 .title {
     color: #F1CDB3;
     font-weight: 400px;
     font-size: 32px;
-    text-transform: uppercase;
+    font-family: Georgia, sans-serif;
+    padding-top: 30px;
+    padding-left: 40px;
+    letter-spacing: 0.06em;
 }
 
 .subtitle {
     color: #FFFFFF;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 13px;
+    font-family: Georgia, sans-serif;
+    font-family: Arial, sans-serif;
+    padding-left: 40px;
+    letter-spacing: 0.1em;
+}
+
+.promo_title {
+    font-weight: 400;
+    font-size: 44px;
+    font-family: Georgia, sans-serif;
+    color: #FFFFFF;
+    padding-top: 253px;
+    padding-left: 40px;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 114px;
+    width: 410px;
+}
+
+.promo_subtitle {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #cdcdcd;
+    height: 72px;
+    width: 510px;
+    padding-top: 142px;
+    padding-left: 40px;
+}
+
+.promo_img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.promo_btn {
+    margin-top: 57px;
+    margin-left: 45px;
+    border-radius: 100px;
+    padding: 15px 45px;
+    width: 207px;
+    height: 52px;
+    background: #fddcc4;
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
 }
