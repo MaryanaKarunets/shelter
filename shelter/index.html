@@ -5,49 +5,50 @@
     <meta charset="UTF-8">
     <title>Maryana Karunets</title>
     <script src="https://kit.fontawesome.com/3c7c090c85.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Tinos&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <div class="wrapper">
-
-        <div class="promo">
+        <div class="header_nav">
             <header class="header">
-                <div class="logo">
-                    <h1 class="title">Cozy House</h1>
-                    <h3 class="subtitle">Shelter for pets in Boston</h3>
-                </div>
-
-                <div class="promo_menu">
-                    <nav class="nav_menu">
-                        <ul class="menu">
-                            <li class="menu_item">
-                                <a href="#" class="menu_link">About the shelter</a>
-                            </li>
-                            <li class="menu_item">
-                                <a href="#" class="menu_link">Our pets</a>
-                            </li>
-                            <li class="menu_item">
-                                <a href="#" class="menu_link">Help the shelter</a>
-                            </li>
-                            <li class="menu_item">
-                                <a href="#" class="menu_link">Contacts</a>
-                            </li>
-                        </ul>
+                <div class="container">
+                    <a href="#" class="logo">
+                        <h1 class="title">Cozy House</h1>
+                        <p class="subtitle">Shelter for pets in Boston</p>
+                    </a>
+                    <nav class="nav">
+                        <div class="nav_burger">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="nav_background"></div>
+                        <div class="nav_menu">
+                            <ul class="menu">
+                                <li class="menu_item"><a href="#" class="menu_link active">About the shelter</a></li>
+                                <li class="menu_item"><a href="../pets/index.html" class="menu_link">Our pets</a></li>
+                                <li class="menu_item"><a href="#help" class="menu_link">Help the shelter</a></li>
+                                <li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </header>
         </div>
-
-        <div class="promo_content">
-            <h2 class="promo_title">Not only people need a house</h2>
-            <h3 class="promo_subtitle">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</h3>
-        </div>
-        <div class="promo_btn">Make a friend</div>
-        <div class="promo_img">
-            <img src="./img/start-screen-puppy.png" alt="">
-        </div>
+        <section class="title_content">
+            <div class="container">
+                <div class="title_promo">
+                    <div class="promo_content">
+                        <h2 class="promo_title">Not only people need a house</h2>
+                        <h3 class="promo_subtitle">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</h3>
+                        <button class="promo_btn"><a href="#friends" class="not_only_btn">Make a friend</button>
+                    </div>
+                    <div class="promo_img">
+                        <img src="./img/start-screen-puppy.png" alt="dog">
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <main></main>
