@@ -85,10 +85,9 @@
     padding-left: 40px;
 }
 
-.promo_img {
+.title_promo {
     display: flex;
     justify-content: flex-end;
-    padding: 180px 40px 0 0;
 }
 
 .promo_btn {
@@ -106,14 +105,80 @@
     text-align: center;
     font-family: "Georgia", sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 130%;
     letter-spacing: 0.06em;
     color: #292929;
 }
 
 .promo_img {
-    flex: 0 1 698px;
-    margin: 0 0 -5px;
+    padding-top: 60px;
     width: 100%;
+}
+
+.img_dog {
+    width: 100%;
+    padding-right: 10px;
+}
+
+.about {
+    height: 588px;
+}
+
+.about_img {
+    width: 300px;
+    height: 408px;
+    margin-top: 80px;
+    margin-left: 215px;
+}
+
+.about_title {
+    font-family: Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 94px;
+    margin-right: 295px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.about_descr {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4c4c4c;
+    padding: 25px 215px 25px 120px;
+    text-align: left;
+}
+
+.pets {
+    height: 877px;
+    background-color: #f6f6f6;
+}
+
+.title_pets {
+    margin: 80px 440px 60px;
+    display: flex;
+    align-content: space-between;
+}
+
+.pets_title {
+    font-family: Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.pets_content {
+    display: flex;
+    align-content: space-between;
+    width: 1200px;
+    height: 435px;
 }
