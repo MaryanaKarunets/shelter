@@ -6,6 +6,7 @@
 
 .wrapper {
     height: 908px;
+    width: 1280px;
     background-image: url('../img/start-screen-gradient-background.jpg');
     background-size: cover;
 }
@@ -156,12 +157,20 @@
 }
 
 .pets {
+    width: 1280px;
     height: 877px;
     background-color: #f6f6f6;
+    padding: 80px 40px 100px 40px;
+}
+
+.pets_content_main {
+    width: 1200px;
+    height: 697px;
 }
 
 .title_pets {
-    margin: 80px 440px 60px;
+    max-width: 400px;
+    margin: 0 auto;
     display: flex;
     align-content: space-between;
 }
@@ -180,5 +189,93 @@
     display: flex;
     align-content: space-between;
     width: 1200px;
+    height: 697px;
+    padding-top: 60px;
+}
+
+.pet_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.pet_cards:first-of-type {
+    margin-left: 50px;
+}
+
+.pet_cards:last-of-type {
+    margin-right: 53px;
+}
+
+.pet_card {
+    border-radius: 9px;
+    margin-right: 90px;
+    width: 270px;
     height: 435px;
+    background: #fafafa;
+}
+
+.pet_card:last-of-type {
+    margin-right: 0;
+}
+
+.pet_card img {
+    border-radius: 9px 9px 0 0;
+    width: 270px;
+    height: 270px;
+}
+
+.title_pet {
+    font-family: Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    padding: 30px auto 40px;
+}
+
+.pet_secondary {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin: 15px 45px;
+    background: #fafafa;
+    width: 187px;
+    height: 52px;
+    font-family: Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.primary_button {
+    display: flex;
+    justify-content: center;
+}
+
+.primary_btn {
+    border-radius: 100px;
+    width: 261px;
+    height: 52px;
+    background: #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.arrow_left {
+    padding: 152px 0;
+    display: flex;
+    align-self: flex-start;
+}
+
+.arrow_right {
+    display: flex;
+    align-self: flex-start;
+    padding-top: 152px;
+    padding-left: 53px;
 }
