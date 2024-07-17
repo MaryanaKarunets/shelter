@@ -25,8 +25,8 @@
                         <div class="nav_background"></div>
                         <div class="nav_menu">
                             <ul class="menu">
-                                <li class="menu_item"><a href="#" class="menu_link active">About the shelter</a></li>
-                                <li class="menu_item"><a href="../pets/index.html" class="menu_link">Our pets</a></li>
+                                <li class="menu_item"><a href="#about" class="menu_link active">About the shelter</a></li>
+                                <li class="menu_item"><a href="#pets" class="menu_link">Our pets</a></li>
                                 <li class="menu_item"><a href="#help" class="menu_link">Help the shelter</a></li>
                                 <li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
                             </ul>
@@ -51,7 +51,7 @@
         </section>
     </div>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about_img">
                     <img src="./img/about-pets.png" alt="dogs">
@@ -65,7 +65,7 @@
             </div>
         </section>
 
-        <section class="pets">
+        <section class="pets" id="pets">
             <div class="pets_content_main">
                 <div class="title_pets">
                     <h3 class="pets_title">Our friends who are looking for a house</h3>
@@ -102,7 +102,7 @@
             </div>
         </section>
 
-        <section class="help">
+        <section class="help" id="help">
             <div class="help_content">
                 <h3 class="help_heading">How you can help our shelter</h3>
 
@@ -172,11 +172,53 @@
                 </div>
             </div>
         </section>
-
     </main>
 
-    <footer></footer>
-
+    <footer>
+        <div class="footer_content">
+            <div class="contacts" id="contacts">
+                <div class="contacts_title">
+                    <h3>For questions and suggestions</h3>
+                </div>
+                <div class="mail">
+                    <div class="icon_mail">
+                        <img src="./img/icons/mail.png" alt="mail">
+                    </div>
+                    <div class="text_mail">
+                        <a href="#">email@shelter.com</a>
+                    </div>
+                </div>
+                <div class="phone">
+                    <div class="icon_phone">
+                        <img src="./img/icons/phone.png" alt="phone">
+                    </div>
+                    <div class="phone_number">
+                        <a href="#">+13 674 567 75 54</a>
+                    </div>
+                </div>
+            </div>
+            <div class="locations">
+                <div class="locations_title">
+                    <h3>We are waiting for your visit</h3>
+                </div>
+                <div class="boston_location">
+                    <img src="./img/icons/pin.png" alt="pin" class="icon_marcer">
+                    <div class="boston">
+                        <a href="#">1 Central Street, Boston (entrance from the store)</a>
+                    </div>
+                </div>
+                <div class="london_location">
+                    <img src="./img/icons/pin.png" alt="pin" class="icon_marcer">
+                    <div class="london">
+                        <a href="#">18 South Park, London </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_puppy">
+                <img src="./img/footer-puppy.png" alt="footer-puppy">
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

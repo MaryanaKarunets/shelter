@@ -7,7 +7,7 @@
         .wrapper {
             height: 908px;
             width: 1280px;
-            background-image: url('../img/start-screen-gradient-background.jpg');
+            background-image: url('../img/start-screen-gradient-background.jpg'), url('../img/start-screen-background.jpg');
             background-size: cover;
         }
         
@@ -461,4 +461,149 @@
             color: #b2b2b2;
             padding-top: 20px;
             text-align: left;
+        }
+        
+        footer {
+            width: 1280px;
+            height: 350px;
+        }
+        
+        footer {
+            width: 1280px;
+            height: 350px;
+            background-image: url('../img/footer-gradient-background.png'), url('../img/footer-background.png');
+            background-size: cover;
+        }
+        
+        .footer_content {
+            width: 1200px;
+            height: 310px;
+            padding: 40px 40px 0 40px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .contacts {
+            width: 278px;
+            height: 234px;
+            margin: 16px 161px 60px 0;
+        }
+        
+        .contacts_title {
+            font-family: Georgia, sans-serif;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        }
+        
+        .mail {
+            width: 251px;
+            height: 32px;
+            color: #F1CDB3;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .text_mail a {
+            font-family: Georgia, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #f1cdb3;
+            text-decoration: none;
+        }
+        
+        .text_mail {
+            padding-left: 20px;
+        }
+        
+        .phone {
+            width: 239px;
+            height: 32px;
+            margin-top: 44px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .phone_number a {
+            font-family: Georgia, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #f1cdb3;
+            text-decoration: none;
+        }
+        
+        .phone_number {
+            padding-left: 18px;
+        }
+        
+        .locations {
+            width: 302px;
+            height: 234px;
+            margin: 16px 160px 60px 0;
+        }
+        
+        .locations_title {
+            font-family: Georgia, sans-serif;
+            font-weight: 300;
+            font-size: 23px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+            text-align: left;
+        }
+        
+        .boston_location {
+            width: 302px;
+            height: 46px;
+            margin-top: 34px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .boston_location a {
+            font-family: Georgia, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            text-decoration: none;
+        }
+        
+        .boston {
+            padding-left: 20px;
+        }
+        
+        .london_location {
+            width: 302px;
+            height: 32px;
+            margin-top: 32px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .london_location a {
+            font-family: Georgia, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            color: #F1CDB3;
+            text-decoration: none;
+        }
+        
+        .london {
+            padding-left: 20px;
+        }
+        
+        .footer_puppy {
+            width: 300px;
+            height: 310px;
         }
