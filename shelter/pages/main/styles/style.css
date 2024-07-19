@@ -7,7 +7,7 @@
         .wrapper {
             height: 908px;
             width: 1280px;
-            background-image: url('../img/start-screen-gradient-background.jpg'), url('../img/start-screen-background.jpg');
+            background-image: url('../../../img/start-screen-gradient-background.jpg'), url('../../../img/start-screen-background.jpg');
             background-size: cover;
         }
         
@@ -278,7 +278,7 @@
         }
         
         .arrow_left {
-            padding: 152px 0;
+            padding: 152px 40px;
             display: flex;
             align-self: flex-start;
         }
@@ -481,7 +481,7 @@
         footer {
             width: 1280px;
             height: 350px;
-            background-image: url('../img/footer-gradient-background.png'), url('../img/footer-background.png');
+            background-image: url('../../../img/footer-background.png'), url('../../../img/start-screen-gradient-background.jpg');
             background-size: cover;
         }
         
