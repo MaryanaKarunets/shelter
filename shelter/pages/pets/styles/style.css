@@ -208,12 +208,6 @@
         padding: 15px 45px;
     }
     
-    .primary__btn {
-        display: flex;
-        justify-content: center;
-        padding-top: 60px;
-    }
-    
     .primary__link {
         border-radius: 100px;
         width: 261px;
@@ -229,7 +223,65 @@
         text-decoration: none;
         padding: 15px 45px;
     }
-    /*..........................*/
+    
+    .pets__buttons {
+        max-width: 340px;
+        margin: 0 auto;
+        padding-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .pets__btn {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        letter-spacing: 0.06em;
+        color: #292929;
+        display: block;
+        width: 52px;
+        height: 52px;
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+        background-color: #F6F6F6;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+    .page_number {
+        background-color: #F1CDB3;
+        cursor: auto;
+        text-align: center;
+        line-height: 52px;
+    }
+    
+    .pets__btn:hover {
+        background-color: #FDDCC4;
+        border: 2px solid #FDDCC4;
+    }
+    
+    .page_number:hover {
+        background-color: #F1CDB3;
+        border: 2px solid #F1CDB3;
+    }
+    
+    .pets__btn:active {
+        background-color: #F1CDB3;
+        border: 2px solid #F1CDB3;
+    }
+    
+    .pets__btn:disabled {
+        color: #CDCDCD;
+        border: 2px solid #CDCDCD;
+        cursor: auto;
+    }
+    
+    .pets__btn:hover:disabled {
+        background-color: #F6F6F6;
+        border: 2px solid #CDCDCD;
+    }
     
     .footer {
         margin: 0 auto;
