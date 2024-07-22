@@ -1,0 +1,126 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+        /* убрать при адаптиве */
+        /* min-width: 1280px; */
+    }
+    
+    body._lock {
+        overflow: hidden;
+    }
+    
+    body._lock2 {
+        overflow: hidden;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    .container {
+        max-width: 1280px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    
+    .header {
+        padding: 30px 0;
+    }
+    
+    .header_row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header_logo {
+        display: block;
+        text-decoration: none;
+    }
+    
+    .header_logo:hover .logo_title {
+        color: #292929;
+    }
+    
+    .logo_title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+        color: #545454;
+        margin: 0 0 9px;
+        transition: 0.3s;
+    }
+    
+    .logo_subtitle {
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        color: #292929;
+        text-align: center;
+    }
+    
+    .header_nav {
+        align-self: center;
+        flex: 0 1 443px;
+    }
+    
+    .nav_list {
+        display: flex;
+        justify-content: space-between;
+        transition: 0.3s;
+    }
+    
+    .nav_list ._active {
+        border-bottom: 3px solid #F1CDB3;
+        color: #292929;
+        padding: 0 0 3px;
+    }
+    
+    .nav_list ._active:hover {
+        color: #292929;
+        cursor: default;
+    }
+    
+    .nav_item {
+        list-style-type: none;
+        padding: 0 0 1px;
+    }
+    
+    .nav_link {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 160%;
+        color: #545454;
+        transition: 0.3s;
+    }
+    
+    .nav_link:hover {
+        color: #292929;
+    }
+    
+    .nav_link:active {
+        border-bottom: 3px solid #F1CDB3;
+        color: #545454;
+        padding: 0 0 3px;
+    }
