@@ -1,2 +1,2 @@
 # shelter
-https://maryanakarunets.github.io/shelter/pages/pets/index.html
+https://maryanakarunets.github.io/shelter/shelter/pages/pets/index.html
