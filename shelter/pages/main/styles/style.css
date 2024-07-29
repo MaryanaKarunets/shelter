@@ -169,6 +169,10 @@
                     background: #fddcc4;
                 }
                 
+                .promo__btn:hover {
+                    background: #FDDCC4;
+                }
+                
                 .not__only__btn {
                     text-decoration: none;
                     text-align: center;
@@ -349,6 +353,18 @@
                     padding: 152px 40px;
                     display: flex;
                     align-self: flex-start;
+                    transition: 0.5s;
+                    cursor: pointer;
+                }
+                
+                .arrow__left__l:hover {
+                    background-color: #FDDCC4;
+                    border: 2px solid #FDDCC4;
+                }
+                
+                .arrow__left__l:active {
+                    background-color: #F1CDB3;
+                    border: 2px solid #F1CDB3;
                 }
                 
                 .arrow__right {
