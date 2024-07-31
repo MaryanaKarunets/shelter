@@ -427,12 +427,10 @@
                     .help__list {
                         max-width: 1026px;
                         height: 281px;
-                        margin-top: 60px;
-                        margin-left: 40px;
-                        margin-right: 40px;
+                        margin: 60px auto 0;
                         display: flex;
                         flex-wrap: wrap;
-                        justify-content: center;
+                        justify-content: space-between;
                     }
                     
                     .help__item__title {
