@@ -197,6 +197,7 @@
                     
                     .about {
                         height: 588px;
+                        background-size: cover;
                     }
                     
                     .about__img {
@@ -233,6 +234,7 @@
                         height: 877px;
                         margin: 0 auto;
                         background-color: #f6f6f6;
+                        background-size: cover;
                         padding: 80px 40px 100px 40px;
                     }
                     
@@ -403,6 +405,7 @@
                     
                     .help {
                         background: #FFFFFF;
+                        background-size: cover;
                         margin: 0 80px;
                     }
                     
@@ -427,12 +430,10 @@
                     .help__list {
                         max-width: 1026px;
                         height: 281px;
-                        margin-top: 60px;
-                        margin-left: 40px;
-                        margin-right: 40px;
+                        margin: 60px auto 0;
                         display: flex;
                         flex-wrap: wrap;
-                        justify-content: center;
+                        justify-content: space-between;
                     }
                     
                     .help__item__title {
@@ -500,6 +501,7 @@
                         height: 462px;
                         margin: 0 auto;
                         background: #f6f6f6;
+                        background-size: cover;
                         padding: 80px 0 100px 0;
                     }
                     
