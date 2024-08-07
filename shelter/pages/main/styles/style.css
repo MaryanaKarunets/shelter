@@ -68,6 +68,7 @@ h5 {
 
 .content-top {
     background: url('../../../img/start-screen-gradient-background.jpg'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-size: cover;
 }
 
 .header {
@@ -686,6 +687,7 @@ h5 {
 .footer {
     background: url('../../../img/footer-gradient-background.png'), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
     padding: 40px 0 0;
+    background-size: cover;
 }
 
 .footer__row {
