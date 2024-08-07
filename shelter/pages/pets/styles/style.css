@@ -282,13 +282,17 @@
         border: 2px solid #F1CDB3;
     }
     
-    .pets__btn:disabled {
+    #first,
+    #previous,
+     :disabled {
         color: #CDCDCD;
         border: 2px solid #CDCDCD;
         cursor: auto;
     }
     
-    .pets__btn:hover:disabled {
+    #first,
+    #previous,
+     :hover:disabled {
         background-color: #F6F6F6;
         border: 2px solid #CDCDCD;
     }
